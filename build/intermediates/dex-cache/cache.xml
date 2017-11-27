@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\5281b74d02017024596c5bd3beb5807ceb47cf89\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a8841eaebf19f6d413309c9dc9a01ed6a0eb6b9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\793ecfc145d4b2fcb94bd959e659fadb961e2ae3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_612bf576d4953bbbc210b4b70a1a73abbbf3b529\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\afb0fbb60ea57f3c07a117c16bd30910c2ea2b31\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_618d59138d62884800d9d7320b4d6ec263bf3cd4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.0.0_0a681f118f1e08d59bb93c4612ba328218ef8a50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\abadb5b01c698bed3e59aa4bf5d50aee6bacf128\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f840cbbd35e0dc4e1afa7f733b7e93c1ba05769\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\cce6037a6c2186f13e265972a1ba1a3fad5fb9cd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dcb33fb18f349c358ec4a9fe37c180346dc4cac4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\9ea06a1a9ff9dc9b74d0cb87ac9d21d94e56aaa6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f414cf07066cd009a34564220aadf65da139bc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\8dbe2adae1605c507fba4a5588c9f0026b0de1c4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a5666ba1e5b1f6d35e0dccb662f2328ac2c5cf2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\7fb20eb996a1f652ee74114086c0566c6f7a1776\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a3e3d3c94305c63a7d6d267cd2b54ec5f9222d31">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3fe47cefae5f62c08539b45c0c0aa807a59d45e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.1.0_96ce42f8f549415d7803197a3101c9bf9f66a619\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\4ad5eea0c641d1e914a62d2eb7265abe6ca61d66\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16b63eaa5d2269f13d506bc2f4831d1e52140d87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.0.0_61a98e04e0d41aab65b05848029255242d6e0595\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\7dbb1fc2275300e16059334baf305e13636188c7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef078eec63adebe344afdb33301456615bb9bf6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bc3e633e0d96fa9c0f696358bfcaabb3422e541e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\45be3b3af67140521d71331aa3ff5a6861daa2ab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ab85513017739b2e0ebf14527095d24444a659ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c72388c828437257b020017d0ed0105d10eb584d">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_117f2441a1123e1d210fdafd3a963c45275f50e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\oleh.smolkin\.android\build-cache\954d09874ab4161be2896802ec789478faee3fba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\Users\oleh.smolkin\Documents\fencing\BluetoothChat\Application\build\intermediates\transforms\dex\debug\folders\1000\10\classes_27a0755c2be35084b6b441dfd800aa15c7742d43\classes.dex" />
+    </item>
+
+</items>
