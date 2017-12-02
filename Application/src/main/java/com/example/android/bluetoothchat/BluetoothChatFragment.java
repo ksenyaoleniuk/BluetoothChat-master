@@ -60,7 +60,10 @@ public class BluetoothChatFragment extends Fragment {
     private ListView mConversationView;
     private EditText mOutEditText;
     private Button mSendButton;
-
+    String [] s =  new String[]
+            {"First", "Second", "Third"};
+    // my code
+    private ListView mCocktailList;
     /**
      * Name of the connected device
      */
@@ -151,6 +154,10 @@ public class BluetoothChatFragment extends Fragment {
         mConversationView = (ListView) view.findViewById(R.id.in);
         mOutEditText = (EditText) view.findViewById(R.id.edit_text_out);
         mSendButton = (Button) view.findViewById(R.id.button_send);
+        // my code
+        mCocktailList = (ListView) view.findViewById(R.id.cocktail_list);
+        ArrayAdapter ad = new ArrayAdapter(getContext(),android.R.layout.simple_expandable_list_item_1, s);
+        mCocktailList.setAdapter(ad);
     }
 
     /**

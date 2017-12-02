@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:background="@color/cardview_light_background"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cocktail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cocktail_name"
+
+        android:textSize="20sp"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <TextView
+        android:id="@+id/cocktail_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+</LinearLayout>
