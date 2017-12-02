@@ -8,7 +8,7 @@ import java.util.Map;
  */
 
 public class Cocktail {
-    int i;
+
     Map<Ingredient, Integer> ingredients;
     public Cocktail(Map<Ingredient, Integer> ingredients) {
         this.ingredients = ingredients;
