@@ -29,10 +29,11 @@
     <ListView
         android:id="@+id/cocktail_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:stackFromBottom="true"
-        android:transcriptMode="alwaysScroll" />
+        android:transcriptMode="alwaysScroll"
+        android:background="@drawable/my_selector" />
 
     <LinearLayout
         android:layout_width="match_parent"

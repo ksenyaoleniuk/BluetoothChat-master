@@ -20,6 +20,7 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -35,12 +36,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 import com.example.android.common.logger.Log;
 
@@ -157,12 +160,45 @@ public class BluetoothChatFragment extends Fragment {
         // my code
         mCocktailList = (ListView) view.findViewById(R.id.cocktail_list);
         ArrayAdapter ad = new ArrayAdapter(getContext(),android.R.layout.simple_expandable_list_item_1, s);
+//        ad = new ArrayAdapter<String>(this,R.layout.simple_expandable_list_item_1)
         mCocktailList.setAdapter(ad);
+
     }
 
     /**
      * Set up the UI and background operations for chat.
      */
+//    private void setupChat() {
+//        Log.d(TAG, "setupChat()");
+//
+//        // Initialize the array adapter for the conversation thread
+//        mConversationArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.message);
+//
+//        mConversationView.setAdapter(mConversationArrayAdapter);
+//
+//        // Initialize the compose field with a listener for the return key
+//        mOutEditText.setOnEditorActionListener(mWriteListener);
+//
+//        // Initialize the send button with a listener that for click events
+//        mOutEditText.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                // Send a message using content of the edit text widget
+//                View view = getView();
+//                if (null != view) {
+//                    TextView textView = (TextView) view.findViewById(R.id.edit_text_out);
+//                    String message = textView.getText().toString();
+////                    sendMessage(message);
+//                    sendMessage("VDK123");
+//                }
+//            }
+//        });
+//
+//        // Initialize the BluetoothChatService to perform bluetooth connections
+//        mChatService = new BluetoothChatService(getActivity(), mHandler);
+//
+//        // Initialize the buffer for outgoing messages
+//        mOutStringBuffer = new StringBuffer("");
+//    }
     private void setupChat() {
         Log.d(TAG, "setupChat()");
 
@@ -175,17 +211,14 @@ public class BluetoothChatFragment extends Fragment {
         mOutEditText.setOnEditorActionListener(mWriteListener);
 
         // Initialize the send button with a listener that for click events
-        mSendButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Send a message using content of the edit text widget
-                View view = getView();
-                if (null != view) {
-                    TextView textView = (TextView) view.findViewById(R.id.edit_text_out);
-                    String message = textView.getText().toString();
+        mCocktailList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View view , int position, long id) {
+                String message = Toast.makeText(getContext(), parent.getItemIdAtPosition(position) + "is selected", Toast.LENGTH_SHORT).toString();
+                        view.setSelected(true);
                     sendMessage(message);
-                }
             }
         });
+
 
         // Initialize the BluetoothChatService to perform bluetooth connections
         mChatService = new BluetoothChatService(getActivity(), mHandler);
@@ -381,6 +414,7 @@ public class BluetoothChatFragment extends Fragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.bluetooth_chat, menu);
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
